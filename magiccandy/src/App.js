@@ -1,7 +1,13 @@
 import './styles/Inicio.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import Banner from './img/Banner.jpg'
+import Fruticas from './img/Fruticas.jpg'
+import DulceTrigo from './img/producto 6.jpg'
+import Panditas from './img/producto 3.jpg'
+import Instagram from './img/instagram.svg'
+import Whatsapp from './img/whatsapp.svg'
+import Facebook from './img/facebook.svg'
 
 
 
@@ -31,16 +37,16 @@ function App() {
         <Header />
         {/* AQUI VA LA IMAGEN PRINCIPAL DE LA WEB--BANNER */}
         <div className="banner">
-          <img src="../src/IMG/Banner.jpg" alt="Banner de la pagina web" /><br />
+          <img src={Banner} alt="Banner de la pagina web" /><br />
         </div>
         <div className="containerOne">
           <p className="persuasive-text"><strong>¡Has llegado a un mundo de experiencias inolvidables!</strong></p><br />
         </div>
         {/* AQUI VAN LAS TRES (3) PRIMERAS IMAGENES DE LOS PRODUCTOS */}
         <div className="container-products">
-          <img src="../SRC/ASSETS/IMG/Producto 2.jpg" alt="Frutitas" />
-          <img src="../SRC/ASSETS/IMG/Producto 6.jpg" alt="Dulce Trigo" />
-          <img src="../SRC/ASSETS/IMG/Producto 3.jpg" alt="Panditas" />
+          <img src={Fruticas} alt="Frutitas" />
+          <img src={DulceTrigo} alt="Dulce Trigo" />
+          <img src={Panditas} alt="Panditas" />
         </div><br />
         {/* BOTON DE VER MAS EN LA PAG. PRINCIPAL */}
         <button className="btn-see-more" role="boton"><a href="Productos.html">Ver más ➜ </a></button>
@@ -50,9 +56,9 @@ function App() {
         {/* REDES SOCIALES DE LA PAGINA PRINCIPAL */}
         <div className="container-nets">
           <ul>
-            <li><a href="https://www.instagram.com/magiccandys/" target="_blank"><img src="../SRC/ASSETS/IMG/instagram.svg" width="30" height="30" /></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100091925247816" target="_blank"><img src="../SRC/ASSETS/IMG/facebook.svg" width="30" height="30" /></a></li>
-            <li><a href="https://web.whatsapp.com" target="_blank"><img src="../SRC/ASSETS/IMG/whatsapp.svg" width="30" height="30" /></a></li>
+            <li><a href="https://www.instagram.com/magiccandys/" target="_blank"><img src={Instagram} width="30" height="30" /></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100091925247816" target="_blank"><img src={Facebook} width="30" height="30" /></a></li>
+            <li><a href="https://web.whatsapp.com" target="_blank"><img src={Whatsapp} width="30" height="30" /></a></li>
           </ul>
         </div>
         {/* ICONO DE whatsapp PARA COMUNICACION */}

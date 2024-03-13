@@ -1,9 +1,10 @@
 import React from 'react'
+import img from '../img/MGCwhite.jpg'
 
 function Navbar() {
   return (
     <header>
-    <a href="Inicio.html"><img className="logo" src="../SRC/ASSETS/IMG/MGCwhite.jpg" alt="Logo" height="70px" width="200px" /></a>
+    <a href="Inicio.html"><img className="logo" src={img} alt="Logo" height="70px" width="200px" /></a>
     <input type="checkbox" id="check" />
     <label htmlFor="check" className="show-menu">&#8801;</label>
     <nav className="menu">

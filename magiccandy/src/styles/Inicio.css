@@ -103,7 +103,7 @@ header{
 /* FONDO DE LA PAGINA WEB */
 
 body {
-    background-image: url(../IMG/Fondo Body.jpg);
+    background-image: url(../img/Fondo\ Body.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
