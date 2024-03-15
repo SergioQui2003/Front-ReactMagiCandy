@@ -1,8 +1,9 @@
 import React from 'react'
-import img from '../img/MGCwhite.jpg'
+import img from '../assets/img/MGCwhite.jpg'
 
-function Navbar() {
+function Header() {
   return (
+    <>
     <header>
     <a href="Inicio.html"><img className="logo" src={img} alt="Logo" height="70px" width="200px" /></a>
     <input type="checkbox" id="check" />
@@ -17,7 +18,8 @@ function Navbar() {
       <label htmlFor="check" className="hide-menu">&#215;</label>
     </nav>
   </header>
+  </>
   )
 }
 
-export default Navbar
+export default Header

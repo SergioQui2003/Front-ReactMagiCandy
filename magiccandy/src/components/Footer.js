@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/styles/Inicio.css'
 
 function Footer() {
   return (

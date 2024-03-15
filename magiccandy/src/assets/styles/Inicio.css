@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 
+
+
 /* RESET LO QUE QUIERE DECIR ES QUE TODA LA PAG YO LE PONGO LAS MEDIDAS QUE SE QUIERAN*/
 *{
     margin: 0;
@@ -103,7 +105,7 @@ header{
 /* FONDO DE LA PAGINA WEB */
 
 body {
-    background-image: url(../img/Fondo\ Body.jpg);
+    background-image: url('../img/fondoBody.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
