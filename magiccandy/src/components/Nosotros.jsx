@@ -1,6 +1,6 @@
 import React from 'react'
 
-function RedesSociales() {
+function Nosotros() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function RedesSociales() {
   )
 }
 
-export default RedesSociales
+export default Nosotros

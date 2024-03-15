@@ -10,8 +10,6 @@ import Whatsapp from './img/whatsapp.svg'
 import Facebook from './img/facebook.svg'
 
 
-
-
 function App() {
   return (
     <html lang="es">
